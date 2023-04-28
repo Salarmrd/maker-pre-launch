@@ -73,6 +73,19 @@ function App() {
           </p>
         </div>
       </div>
+      <div className="third">
+        <div className="pricing">
+          <h2>Our pricing plans</h2>
+          <p>
+            We only make money when our creators make money. Our plans are
+            always affordable, and it’s completely free to get started.
+          </p>
+          <div className="plans">
+            <div className="free"></div>
+            <div className="monthly"></div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
