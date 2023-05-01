@@ -1,14 +1,14 @@
 @forward "variables.scss";
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&family=Outfit:wght@400;700&family=Roboto:wght@400;500;700;900&family=Space+Grotesk:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Outfit:wght@400;700&family=Roboto:wght@400;500;700;900&family=Space+Grotesk:wght@500&display=swap");
 body {
   padding: 80px 0;
   box-sizing: border-box;
   background-color: var(--background-color);
   font-family: var(--font);
   letter-spacing: 1px;
-  p{
+  p {
     color: var(--body-color);
-    size: 15px;
+    font-size: 15px;
   }
   .App {
     nav {
@@ -20,7 +20,6 @@ body {
       justify-content: center;
       align-items: center;
       background-image: url("./assets/Hero-images.svg");
-      background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
       height: 510px;
@@ -62,7 +61,7 @@ body {
           margin-bottom: 23px;
           size: 18px;
         }
-        
+
         &.up {
           margin-top: 50px;
         }
@@ -78,17 +77,136 @@ body {
       }
     }
     .third {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       margin-top: 200px;
       .pricing {
+        margin: 0 auto 73px auto;
         text-align: center;
         width: 550px;
         h2 {
           color: var(--header-color);
           margin-bottom: 24px;
+          
         }
+      }
+      .plans {
+        display: flex;
+        margin: 0 auto;
+        gap: 30px;
+        width: 900px;
+        position: relative;
+
+        .free {
+          background-color: var(--second-bg);
+          width: 445px;
+          padding: 38px;
+          border-radius: 8px;
+          margin-top: 20px;
+          margin-bottom: 10px;
+          .img-icon {
+            position: absolute;
+            top: -10px;
+          }
+          .price {
+            font-size: 40px;
+            color: #ffff;
+            opacity: 1;
+            font-weight: 800;
+          }
+          h4 {
+            color: #ffff;
+            font-weight: 800;
+            font-size: 18px;
+          }
+          p {
+            margin: 19px 0 24px 0;
+            color: #ffffff;
+            opacity: 0.6;
+          }
+          ul {
+            list-style-type: none;
+            margin-left: 15px;
+            padding: 0;
+          }
+
+          li {
+            margin-bottom: 10px;
+            size: 15px;
+            color: white;
+            span {
+              margin-left: 15px;
+            }
+          }
+        }
+        .monthly {
+          background-color: var(--theme-color);
+          width: 445px;
+          padding: 38px;
+          border-radius: 8px;
+          .img-icon {
+            position: absolute;
+            top: -40px;
+          }
+          .price {
+            font-size: 40px;
+            color: #000000;
+            opacity: 1;
+            font-weight: 800;
+          }
+          p {
+            color: #080c20;
+            opacity: 0.6;
+            margin: 19px 0 24px 0;
+          }
+          ul {
+            list-style-type: none;
+            margin-left: 15px;
+            padding: 0;
+          }
+
+          li {
+            margin-bottom: 10px;
+            span {
+              margin-left: 15px;
+            }
+          }
+        }
+      }
+    }
+    .footer {
+      margin-top: 150px;
+      background-image: url("./assets/bg-footer-squiggle.svg");
+      height: 228px;
+      text-align: center;
+      h2 {
+        font-size: 32px;
+        color: #ffff;
+        font-size: 800;
+        margin-bottom: 42px;
+      }
+      input {
+        width: 320px;
+        height: 48px;
+        background: #093f68;
+        border-radius: 24px;
+        border: none;
+        padding: 14px;
+      }
+      input::placeholder {
+        color: #fff;
+        font-weight: 600;
+        opacity: 40%;
+        font-family: 'Manrope';
+      }
+      button {
+        height: 48px;
+        width: 140px;
+        background: #3ee9e5;
+        border-radius: 24px;
+        border: none;
+        margin-left: 16px;
+        font-weight: 600;
+        color: #093f68;
+        font-family: 'Manrope';
       }
     }
   }
