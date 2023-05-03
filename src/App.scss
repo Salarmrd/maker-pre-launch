@@ -6,8 +6,8 @@ body {
   background-color: var(--background-color);
   font-family: var(--font);
   letter-spacing: 1px;
-  @media screen  and (max-width : 450px) {
-    padding:40px 0;
+  @media screen and (max-width: 450px) {
+    padding: 40px 0;
   }
   p {
     color: var(--body-color);
@@ -22,14 +22,12 @@ body {
           margin-left: 70px;
         }
       }
-      @media screen and (max-width:500px){
-        
-          margin-bottom:120px;
-          text-align: center;
-          img{
-            margin: 0;
-          }
-        
+      @media screen and (max-width: 500px) {
+        margin-bottom: 0px;
+        text-align: center;
+        img {
+          margin: 0;
+        }
       }
     }
     .first {
@@ -59,23 +57,42 @@ body {
         margin: 0 auto;
         margin-top: 55px;
       }
-      @media screen and (max-width : 1300px){
-        
-          background-position: center;
+      @media screen and (max-width: 1300px) {
+        background-position: center;
         height: 400px;
-        h1{
+        h1 {
           margin: 0 220px 25px 230px;
         }
-        p{
+        p {
           margin: 0 200px 25px 200px;
         }
       }
-      @media screen and (max-width:850px){
-        h1{
+      @media screen and (max-width: 850px) {
+        h1 {
+          margin: 0 170px 25px 170px;
+          font-size: 32px;
+        }
+        p {
           margin: 0 150px 25px 150px;
         }
-        p{
-          margin: 0 150px 25px 150px;
+      }
+      @media screen and (max-width: 550px) {
+        background-image: url("./assets/illustration-hero-mobile.png");
+        background-position: top;
+        height: 408px;
+        background-size: contain;
+        margin-top: 65px;
+        margin-bottom: 300px;
+        h1 {
+          margin: 450px 55px 25px 54px;
+          font-size: 32px;
+          line-height: 1.3;
+        }
+        p {
+          margin: 0 24px 0px 24px;
+        }
+        img {
+          margin-top: 32px;
         }
       }
     }
@@ -86,11 +103,13 @@ body {
       width: 1100px;
       margin: 100px auto 0px auto;
       gap: 50px;
-
       .column {
         flex: 20%;
         display: flex;
         flex-direction: column;
+        @media screen and (max-width: 1100px) {
+          flex-direction: row;
+        }
         h3 {
           color: #ffff;
           margin-top: 48px;
@@ -111,6 +130,82 @@ body {
           justify-content: center;
         }
       }
+      @media screen and (max-width: 1100px) {
+        flex-direction: column;
+        width: 770px;
+        .column {
+          flex-direction: row;
+          .icons {
+            margin-right: 55px;
+          }
+          &.up {
+            margin-top: 0px !important;
+          }
+          &.right {
+            margin-left: 60px;
+          }
+          .divinfo {
+            width: 456px;
+          }
+        }
+      }
+      @media screen and (max-width: 800px) {
+        flex-direction: column;
+        width: 573px;
+        @media screen and (max-width: 700px) {
+          width: 473px;
+        }
+        .column {
+          flex-direction: row;
+          &.up {
+            margin: 0px !important;
+          }
+          .icons {
+            margin-right: 55px;
+            width: 190px !important;
+            height: 124px !important;
+          }
+          &.right {
+            margin-left: 60px;
+          }
+          .divinfo {
+            max-width: 400px;
+            width: 100%;
+            h3 {
+              margin-top: 5px !important;
+            }
+          }
+          .iconsize {
+            width: 66px;
+            height: 80px;
+            &.work {
+              width: 70px !important;
+              height: 64px !important;
+            }
+          }
+        }
+      }
+      @media screen and (max-width: 500px) {
+        width: 340px;
+        .column {
+          flex-direction: column;
+          margin: 0 auto;
+          text-align: center !important;
+
+          &.right {
+            margin: 0;
+          }
+          .icons {
+            margin: 0 auto;
+            width: 120px !important;
+            height: 124px !important;
+          }
+          .divinfo {
+            padding: 32px 24px 56px 24px;
+            margin: 0 auto;
+          }
+        }
+      }
     }
     .third {
       margin-top: 200px;
@@ -129,7 +224,7 @@ body {
         gap: 30px;
         width: 900px;
         position: relative;
-
+        
         .free {
           background-color: var(--second-bg);
           width: 445px;
@@ -202,6 +297,26 @@ body {
             margin-bottom: 10px;
             span {
               margin-left: 15px;
+            }
+          }
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .plans {
+          width: 100%;
+          flex-direction: column;
+          .free{
+            margin: 0px 150px;
+            width: 455px;
+            img{
+              top: -22px !important;
+            }
+          }
+          .monthly{
+            margin: 65px 150px 0 150px;
+            width: 455px;
+            img{
+              top: 440px !important;
             }
           }
         }
