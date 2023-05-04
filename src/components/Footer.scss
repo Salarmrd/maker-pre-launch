@@ -1,0 +1,49 @@
+.footer {
+    margin-top: 150px;
+    background-image: url("../assets/bg-footer-squiggle.svg");
+    height: 228px;
+    text-align: center;
+    h2 {
+      font-size: 32px;
+      color: #ffff;
+      font-size: 800;
+      margin-bottom: 42px;
+    }
+    input {
+      width: 320px;
+      height: 48px;
+      background: #093f68;
+      border-radius: 24px;
+      border: none;
+      padding: 14px;
+    }
+    input::placeholder {
+      color: #fff;
+      font-weight: 600;
+      opacity: 40%;
+      font-family: "Manrope";
+    }
+    button {
+      height: 48px;
+      width: 140px;
+      background: #3ee9e5;
+      border-radius: 24px;
+      border: none;
+      margin-left: 16px;
+      font-weight: 600;
+      color: #093f68;
+      font-family: "Manrope";
+    }
+    @media screen and (max-width: 400px){
+      h2{
+        font-size: 24px;
+        padding: 0 40px;
+      }
+      button{
+        width: 320px;
+      height: 48px;
+      margin-left: 0;
+      margin-top: 24px;
+      }
+    }
+  }

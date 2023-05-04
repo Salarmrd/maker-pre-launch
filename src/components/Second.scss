@@ -1,0 +1,119 @@
+.second {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: 100px auto 0px auto;
+  gap: 50px;
+  .column {
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: 1100px) {
+      flex-direction: row;
+    }
+    h3 {
+      color: #ffff;
+      margin-top: 48px;
+      margin-bottom: 23px;
+      size: 18px;
+    }
+
+    &.up {
+      margin-top: 50px;
+    }
+    .icons {
+      border-radius: 45px;
+      background-color: var(--second-bg);
+      width: 160px;
+      height: 164px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    flex-direction: column;
+    width: 770px;
+    .column {
+      flex-direction: row;
+      .icons {
+        margin-right: 55px;
+      }
+      &.up {
+        margin-top: 0px !important;
+      }
+      &.right {
+        margin-left: 60px;
+      }
+      .divinfo {
+        width: 456px;
+      }
+    }
+  }
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    width: 573px;
+    @media screen and (max-width: 700px) {
+      width: 473px;
+    }
+    .column {
+      flex-direction: row;
+      &.up {
+        margin: 0px !important;
+      }
+      .icons {
+        margin-right: 55px;
+        width: 190px !important;
+        height: 124px !important;
+      }
+      &.right {
+        margin-left: 60px;
+      }
+      .divinfo {
+        max-width: 400px;
+        width: 100%;
+        h3 {
+          margin-top: 5px !important;
+        }
+      }
+      .iconsize {
+        width: 66px;
+        height: 80px;
+        &.work {
+          width: 70px !important;
+          height: 64px !important;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 500px) {
+    width: 340px;
+    .column {
+      flex-direction: column;
+      margin: 0 auto;
+      text-align: center !important;
+
+      &.right {
+        margin: 0;
+      }
+      .icons {
+        margin: 0 auto;
+        width: 120px !important;
+        height: 124px !important;
+        .iconsize {
+          width: 60px;
+          height: 75px;
+          &.work {
+            width: 85px !important;
+            height: 67px !important;
+          }
+        }
+      }
+      .divinfo {
+        padding: 32px 24px 56px 24px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
