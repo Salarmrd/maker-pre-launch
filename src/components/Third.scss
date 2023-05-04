@@ -201,8 +201,8 @@
         }
       }
     }
-    @media screen and (max-width: 400px) {
-      margin-top: 144px;
+    @media screen and (max-width: 450px) {
+      margin-top: 100px;
 
       .pricing {
         width: 100%;
@@ -235,7 +235,46 @@
             padding-top: 26px;
           }
           img {
-            top: 462px !important;
+            top: 422px !important;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 380px) {
+      margin-top: 100px;
+
+      .pricing {
+        width: 100%;
+        padding: 0 10px;
+        h2{
+          font-size: 24px;
+        }
+      }
+      .plans {
+        width: 100%;
+        flex-direction: column;
+        padding: 0 24px;
+        gap: 65px;
+        .free {
+          margin: 0px;
+          padding: 25px;
+          width: 100%;
+          h4 {
+            padding-top: 26px;
+          }
+          img {
+            top: -27px !important;
+          }
+        }
+        .monthly {
+          margin: 0;
+          width: 100%;
+          padding: 25px;
+          h4 {
+            padding-top: 26px;
+          }
+          img {
+            top: 450px !important;
           }
         }
       }
