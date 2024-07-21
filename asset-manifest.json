@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/maker-pre-launch/static/css/main.532be046.css",
+    "main.js": "/maker-pre-launch/static/js/main.fba3d201.js",
+    "static/media/Hero-images.svg": "/maker-pre-launch/static/media/Hero-images.ee835509a1fcbc9a3203.svg",
+    "static/media/illustration-hero-mobile.png": "/maker-pre-launch/static/media/illustration-hero-mobile.260dcd4e89450c30bbbf.png",
+    "static/media/bg-footer-squiggle.svg": "/maker-pre-launch/static/media/bg-footer-squiggle.16bec34032cd689d4570.svg",
+    "static/media/illustration-passions.svg": "/maker-pre-launch/static/media/illustration-passions.388956614c2826f15a4259e83d47e94a.svg",
+    "static/media/illustration-financial-freedom.svg": "/maker-pre-launch/static/media/illustration-financial-freedom.831f93a520ba1a75fafcc6e172b36c73.svg",
+    "static/media/illustration-work-anywhere.svg": "/maker-pre-launch/static/media/illustration-work-anywhere.ca73b1b223bfa24fe1d3c75aeb40e8b6.svg",
+    "static/media/logo.svg": "/maker-pre-launch/static/media/logo.21a1ccfc934006148b9bd65e606fdfd2.svg",
+    "static/media/illustration-lifestyle.svg": "/maker-pre-launch/static/media/illustration-lifestyle.91a086882568d740383f98ef195a58a8.svg",
+    "index.html": "/maker-pre-launch/index.html",
+    "static/media/icon-paid.svg": "/maker-pre-launch/static/media/icon-paid.690d7aee87a8762b36509fe74be85f99.svg",
+    "static/media/icon-free.svg": "/maker-pre-launch/static/media/icon-free.3062eb2c2337f201e0f2ea1fc420a9d6.svg",
+    "static/media/checkfreeicon.svg": "/maker-pre-launch/static/media/checkfreeicon.1cdf78e86af05c44da606b3e80da05da.svg",
+    "static/media/icon-scroll.svg": "/maker-pre-launch/static/media/icon-scroll.593cee62ea6d7ce062677c3308992825.svg",
+    "static/media/icon-check.svg": "/maker-pre-launch/static/media/icon-check.184dcc47048c43192a073026b10a783a.svg",
+    "main.532be046.css.map": "/maker-pre-launch/static/css/main.532be046.css.map",
+    "main.fba3d201.js.map": "/maker-pre-launch/static/js/main.fba3d201.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.532be046.css",
+    "static/js/main.fba3d201.js"
+  ]
+}
